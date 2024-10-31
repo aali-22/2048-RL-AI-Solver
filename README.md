@@ -34,29 +34,6 @@ Our approach will involve training the agent to play and win the game using algo
 
 ---
 
-2048-RL-Solver/
-├── README.md             # Overview and project information
-├── requirements.txt      # List of dependencies
-├── notebooks/            # Jupyter notebooks for prototyping
-│   └── 2048_prototype.ipynb
-├── src/                  # Python source code
-│   ├── main.py           # Main file to run the project
-│   ├── game/             # Game logic
-│   │   ├── __init__.py
-│   │   └── 2048_game.py  # Core game mechanics
-│   ├── rl/               # Reinforcement learning agents
-│   │   ├── __init__.py
-│   │   ├── q_learning.py # Q-Learning implementation
-│   │   └── actor_critic.py # Actor-Critic implementation
-│   └── dashboard/        # Plotly/Dash code for visualization
-│       └── dashboard.py
-└── tests/                # Testing scripts
-    ├── test_game.py
-    └── test_rl.py
-
-
----
-
 ### **Project Components**
 
 ### **1. Game Environment Setup**
